@@ -52,7 +52,8 @@ func getSeries(nums []int, tag []bool, rslt [][]int, seq int, prev []int, cur *i
 }
 
 func main() {
-	nums := []int{11, 21, 31}
+	// nums := []int{11, 21, 31}
+	nums := []int{1, 2, 3, 4, 5, 6}
 	fmt.Print(permute(nums))
 	fmt.Printf("\n")
 }
